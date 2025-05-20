@@ -1,0 +1,92 @@
+/* Estilo geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #e63946; /* Cor vibrante para títulos */
+}
+
+/* Cabeçalho */
+.header-container {
+    background-color: #1d3557; /* Azul escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Seção sobre a academia */
+.about-academy {
+    padding: 20px;
+    background-color: #f1faee; /* Fundo claro */
+}
+
+.section-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.classes-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.class {
+    background-color: #457b9d; /* Azul médio */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+/* Formulário de login */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login-box {
+    background-color: #f1faee; /* Fundo claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #1d3557; /* Azul escuro */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #e63946; /* Cor vibrante */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #d62839; /* Tom mais escuro ao passar o mouse */
+}
